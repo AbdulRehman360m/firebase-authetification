@@ -4,16 +4,21 @@ body{
     text-align: center;
     display: flex;
     justify-content: center;
+    background: url('https://images.pexels.com/photos/3532540/pexels-photo-3532540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.2);
     align-items: center;
-    background-color: #414141;
     height: 100vh;
 }
 .MyContainer{
-  width: 100%;
+  width: 50vw;
   height: 100%;
   display: flex;
   border-radius: 12px;
   align-items: center;
   flex-direction: column;
-  background-color: #616161;
+  background-color: rgba(255, 255, 255, 0.487);
 }
